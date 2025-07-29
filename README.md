@@ -28,14 +28,14 @@ Make sure Terraform and AWS CLI are installed and configured.
 
 ## Terraform command
 
-terraform init         # Initialize the working directory
-terraform validate     # Validate configuration files
-terraform fmt          # Format code for consistency
-terraform plan         # Show the execution plan
-terraform apply        # Apply the configuration
-terraform output       # View output values
-terraform show         # (Optional) Show current state
-terraform destroy      # (Optional) Destroy the infrastructure
+- terraform init         # Initialize the working directory
+- terraform validate     # Validate configuration files
+- terraform fmt          # Format code for consistency
+- terraform plan         # Show the execution plan
+- terraform apply        # Apply the configuration
+- terraform output       # View output values
+- terraform show         # (Optional) Show current state
+- terraform destroy      # (Optional) Destroy the infrastructure
 
 
 
