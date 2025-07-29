@@ -6,8 +6,8 @@ This project demonstrates how to automate the provisioning of AWS cloud infrastr
 
 ## Components Provisioned
 
-- Custom Virtual Private Cloud (VPC) — 172.16.0.0/16  
-- Two Public Subnets — 172.16.1.0/24 and 172.16.2.0/24  
+- Custom Virtual Private Cloud (VPC) 
+- Two Subnets 
 - Two EC2 Instances (1 per subnet)  
 - Internet Gateway (IGW) for public access  
 - Route Tables and associations  
