@@ -67,6 +67,7 @@ resource "aws_security_group" "web1" {
     to_port     = 0
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
+    description = "This is open to all"
 
   }
 
@@ -145,4 +146,5 @@ resource "aws_lb_listener" "listener" {
 
 output "loadbalancerdns" {
   value = aws_lb.myalb.dns_name
+
 }
