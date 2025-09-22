@@ -35,7 +35,7 @@ Make sure Terraform and AWS CLI are installed and configured.
 - terraform apply        # Apply the configuration
 - terraform output       # View output values
 - terraform show         # (Optional) Show current state
-- terraform destroy      # (Optional) Destroy the infrastructure
+- terraform destroy      # (Optional) Destroy the infrastructure if practising 
 
 
 
